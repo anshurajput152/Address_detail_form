@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <img src="./background anime poster.png" alt="" class="img"> -->
+        <div class="form">
+            <header class="header">
+                <h1>Fill Your Complete Address</h1>
+            </header>
+            <main class="main">
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <p>
+                        <input type="hidden" name="access_key" value="6e1698fa-f79b-40d8-94ad-ab8d1342f335">
+                    </p>
+
+                    <p>
+                        <label>First Name</label>
+                        <input type="text" id="First Name" placeholder="First Name" name="First_Name" required>
+                    </p>
+
+                    <p>
+                        <label>Last Name</label>
+                        <input type="text" id="Last Name" placeholder="Last Name" name="Last_Name" required>
+                    </p>
+
+
+                    <p>
+                        <label>Phone No</label>
+                        <input type="text" id="Phone No" placeholder="**********" name="Contact_Details" required>
+                    </p>
+
+
+                    <p>
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="email@google.com (optional)" name="Email">
+                    </p>
+
+
+                    <p>
+                        <label for="">Pin Code (Zip Code)</label>
+                        <input type="text" id="Zip" placeholder="Pin code" name="Pin_Code" required>
+                    </p>
+
+
+                    <p>
+                        <label>Address</label>
+                        <input type="text" id="Add" placeholder="Street,Location,House NO,Landmark" name="Address" required>
+                    </p>
+                      
+                    <p>
+                        <button type="submit" class="btn">Place Order</button>
+
+                    </p>
+
+                </form>
+            </main>
+        </div>
+    </div>
+</body>
+  
+  <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script> -->
+
+</html>

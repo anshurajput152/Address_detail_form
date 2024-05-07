@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background:black url(./background\ anime\ poster.png);
+    position: absolute;
+}
+
+.form{
+    color: aliceblue;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+    transform: translateY(-5%);
+    padding: 20px 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 186, 186);
+    z-index: 2;
+    backdrop-filter: blur(8px);
+}
+
+.header h1{
+    font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    margin: 20px 0px;
+}
+.main p{
+    margin: 10px 10px;
+}
+.main p label{
+    display: block;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main p input{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+
+    border: 2px solid rgb(121, 109, 109);
+    border-radius:4px;
+    font-size: 1rem;
+    margin-top: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px 5px rgb(204, 186, 186);
+    /* margin-left: 120px; */
+    margin-top: 10px;
+}
+
+h3{
+    margin-left: 40%;
+    text-transform: uppercase;
+}
